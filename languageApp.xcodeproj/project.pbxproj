@@ -15,6 +15,7 @@
 		5F2AFD321EE2771B007FCC9C /* languageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AFD311EE2771B007FCC9C /* languageAppTests.swift */; };
 		5F2AFD3D1EE2771B007FCC9C /* languageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AFD3C1EE2771B007FCC9C /* languageAppUITests.swift */; };
 		5F3B85351F56C1F3001B00FC /* yakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B85341F56C1F3001B00FC /* yakuViewController.swift */; };
+		5FC7F7271F5807FA00B92AEA /* yakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC7F7261F5807FA00B92AEA /* yakuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F2AFD3C1EE2771B007FCC9C /* languageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageAppUITests.swift; sourceTree = "<group>"; };
 		5F2AFD3E1EE2771B007FCC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F3B85341F56C1F3001B00FC /* yakuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yakuViewController.swift; sourceTree = "<group>"; };
+		5FC7F7261F5807FA00B92AEA /* yakuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yakuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5F2AFD1C1EE2771B007FCC9C /* AppDelegate.swift */,
 				5F2AFD1E1EE2771B007FCC9C /* ViewController.swift */,
 				5F2AFD201EE2771B007FCC9C /* Main.storyboard */,
+				5FC7F7261F5807FA00B92AEA /* yakuViewController.swift */,
 				5F2AFD231EE2771B007FCC9C /* Assets.xcassets */,
 				5F2AFD251EE2771B007FCC9C /* LaunchScreen.storyboard */,
 				5F2AFD281EE2771B007FCC9C /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC7F7271F5807FA00B92AEA /* yakuViewController.swift in Sources */,
 				5F2AFD1F1EE2771B007FCC9C /* ViewController.swift in Sources */,
 				5F2AFD1D1EE2771B007FCC9C /* AppDelegate.swift in Sources */,
 			);
