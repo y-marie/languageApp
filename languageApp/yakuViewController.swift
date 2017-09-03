@@ -13,12 +13,24 @@ class yakuViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
 
+
+//読み上げ機能
+    @IBAction func tspToRead(_ sender: UIButton) {
+//        var talker = AVSpeechSynthesizer()
+//        
+//        let utterance = AVSpeechUtterance(speechText)
+//        utterance.voice = AVSpeechSynthesisVoice(language: "en")
+//        self.talker.speakUtterance(utterance)
+//        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
     
 

@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //info.plistに追加 音声入力機能つける時用
+    //NSMicrophoneUsageDescription（マイクの用途について）
+    //NSSpeechRecognitionUsageDescription（音声認識の用途について）
 
     @IBAction func tapToTranslate(_ sender: UIButton) {
         
