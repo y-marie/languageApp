@@ -94,6 +94,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="rtD-CG-eqj"/>
+                    <connections>
+                        <outlet property="originSentence" destination="q1G-vs-Pye" id="9Dv-p0-ady"/>
+                        <outlet property="yakuSentence" destination="9c3-lJ-jX5" id="7uC-Wy-M1G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="noK-qx-ZIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
