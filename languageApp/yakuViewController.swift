@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//読み上げ
 import AVFoundation
 
 class yakuViewController: UITabBarController,AVSpeechSynthesizerDelegate{
