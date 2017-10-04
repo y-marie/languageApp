@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//読み上げ
+//読み上げ用フレームワーク 
 import AVFoundation
 
 class yakuViewController: UITabBarController,AVSpeechSynthesizerDelegate{
@@ -37,7 +37,7 @@ class yakuViewController: UITabBarController,AVSpeechSynthesizerDelegate{
         var talker = AVSpeechSynthesizer()
         
         let utterance = AVSpeechUtterance(string:self.yakuSentence.text!)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en")
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
         
 //TODO:後から変更
     //上のenを前ページで選択された言語で読み上げできるように
